@@ -11,7 +11,7 @@ use Email\Email;
 class Controller_Form extends Controller_Template
 {
 	public function action_index(){
-		$this->template->title = 'コンタクトフォームaa';
+		$this->template->title = 'コンタクトフォームaabb';
 		$this->template->content = View::forge('form/index');
 		$this->template->footer = View::forge('form/footer');
 	}
