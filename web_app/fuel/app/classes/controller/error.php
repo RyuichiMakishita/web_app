@@ -7,6 +7,7 @@ class Controller_Error extends Controller_Template{
 		}else{
 			// Security::htmlentitiesメソッドへのラッパー
 			return e($message);
+
 		}
 	}
 }

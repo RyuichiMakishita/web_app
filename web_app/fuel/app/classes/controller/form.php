@@ -37,6 +37,7 @@ class Controller_Form extends Controller_Template
 		return $val;
 	}
 
+
 	public function action_confirm(){
 		$val = $this->forge_validation();
 		Log::debug('バリデーション前');
